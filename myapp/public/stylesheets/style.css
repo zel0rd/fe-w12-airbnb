@@ -9,7 +9,7 @@
 }
 *:focus {
   outline: none;
-  
+
 }
 a {
   color: #00B7FF;
@@ -38,8 +38,7 @@ span.ingredient {
   background-color: black;
   color: white;
   text-decoration: underline;
-  height: 66px;
-
+  height: 57px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +47,7 @@ span.ingredient {
 #outline {
   margin-left: 80px;
   color: white;
-  margin-top: 10%
+  margin-top: 15%
 }
 
 #btn1 {
@@ -152,11 +151,12 @@ span.ingredient {
 }
 
 
-.first-page {
-    background-image: url("http://localhost:3000/images/main_top.webp");
-    background-position: 0 -330px;
-    width:100%;
-    height: 700px;
+.first-page {  
+  width: 100%;
+  height: 785px;
+  background-image: url("http://localhost:3000/images/main_top.webp");
+  background-position: 0 -360px;
+  background-size: 100%;
 }
 
 .smallImg{
