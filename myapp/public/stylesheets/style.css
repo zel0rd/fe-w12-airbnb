@@ -7,6 +7,10 @@
   margin: 0;
   padding: 0;
 }
+*:focus {
+  outline: none;
+  
+}
 a {
   color: #00B7FF;
 }
@@ -125,8 +129,8 @@ span.ingredient {
   visibility: hidden;
   /* visibility: visible; */
   width: 160px;
-  background-color: #555;
-  color: #fff;
+  background-color: #fff;
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
